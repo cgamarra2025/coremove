@@ -265,19 +265,19 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/SMV/CIM/1.jpg">
+                    <img src="images/SMV/CIM/1.jpg" style="width:600px;height:400px;display:block;margin:auto;">
                 </div>
             </div>
             <br>
             <div class="row clearfix">
                 <div class="col-md-6">
-                    <center> <img src="images/SMV/CIM/2.jpg"> </center>
+                    <img src="images/SMV/CIM/2.jpg" style="width:600px;height:400px;display:block;margin:auto;">
                 </div>
                      <!-- Content Column -->
                 <div class="content-column">
                     <div class="inner-column">
                         <div class="sec-title style-two">
-                            <center><h2>DEL EXPEDIENTE</h2></center>
+                            <h2 class="text-center">DEL EXPEDIENTE</h2>
                         </div>
                         <div class="text">
 
@@ -287,7 +287,7 @@
                         &nbsp;&nbsp;&nbsp;(*) Dos fotos de frente y Una foto de perfil fondo blanco sin prenda de cabeza <BR>
 
                        <!-- <B>Los ciudadanos nacidos el año 2005 correspondiente a la Clase 2022, se acercarán a las Oficinas de Registro Militar para su Inscripción.</B><BR>-->
-
+                        <BR>
                         <center><B>REQUISITOS</B></center>
                         1   Copia del Documento Nacional de Identidad (DNI).Vigente ó Ticket de tramite.<BR>
                         2   Dos (02) fotos de frente y una (01) foto de perfil, tamaño carnet fondo blanco, sin prenda 
@@ -410,7 +410,14 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="clearfix">
-                        <center><div class="copyright">COREMOVE | COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO</div></center>
+                        <p class="copyright mb-0 text-center">
+                            © <span id="year"></span> - COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO.<br>
+                            Todos los derechos reservados.
+                        </p>
+
+                        <script>
+                            document.getElementById("year").textContent = new Date().getFullYear();
+                        </script>
                 </div>
             </div>
         </div>

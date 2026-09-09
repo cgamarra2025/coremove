@@ -265,15 +265,16 @@
                         </div>  
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/SMV/CIM/1.jpg">
-                </div>
+                    <div class="col-md-6">
+                        <img src="images/SMV/CIM/1.jpg" style="width:600px;height:400px;display:block;margin:auto;">
+                    </div>
             </div>
             <br>
             <div class="row clearfix">
                 <div class="col-md-6">
-                    <img src="images/SMV/CIM/3.jpg">
+                    <img src="images/SMV/CIM/3.jpg" style="width:600px;height:400px;display:block;margin:auto;">
                 </div>
+
                      <!-- Content Column -->
                 <div class="content-column">
                     <div class="inner-column">
@@ -412,7 +413,14 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="clearfix">
-                        <center><div class="copyright">COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO</div></center>
+                       <p class="copyright mb-0 text-center">
+                            © <span id="year"></span> - COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO.<br>
+                            Todos los derechos reservados.
+                        </p>
+
+                        <script>
+                            document.getElementById("year").textContent = new Date().getFullYear();
+                        </script>
                 </div>
             </div>
         </div>
@@ -435,7 +443,7 @@
                     <div class="sidebar-info-contents">
                         <div class="content-inner">
                             <div class="logo">
-                                <a href="index.html"><img src="images/SMV/logo14.png" alt="" /></a>
+                                <a href="index.html"><img src="images/SMV/logo_footer1.png" alt="" /></a>
                             </div>
                             <div class="content-box">
                                 <h2>COREMOVE</h2>

@@ -368,7 +368,14 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="clearfix">
-                        <center><div class="copyright">COREMOVE | COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO</div></center>
+                       <p class="copyright mb-0 text-center">
+                            © <span id="year"></span> - COMANDO DE REEMPLAZOS Y MOVILIZACIÓN DEL EJÉRCITO.<br>
+                            Todos los derechos reservados.
+                        </p>
+
+                        <script>
+                            document.getElementById("year").textContent = new Date().getFullYear();
+                        </script>
                 </div>
             </div>
         </div>
